@@ -51,7 +51,7 @@ const Login = () => {
 
   const handleGoogleLogin = () => {
     // Redirect to Google OAuth login endpoint
-    window.location.href = 'http://localhost:3000/api/auth/google';
+    window.location.href = 'https://fj-be-r2-paurush-kumar-iitm.onrender.com/api/auth/google';
   };
 
   if (isLoading) {

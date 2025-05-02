@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/api/reports/';
+const API_URL = 'https://fj-be-r2-paurush-kumar-iitm.onrender.com/api/reports/';
 
 // Get monthly income vs expense report
 const getMonthlyReport = async (token, year) => {

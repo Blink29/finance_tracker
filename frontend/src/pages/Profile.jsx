@@ -45,7 +45,7 @@ const Profile = () => {
       });
 
       if (userDetails.profilePicture) {
-        setPreviewUrl(`http://localhost:3000${userDetails.profilePicture}`);
+        setPreviewUrl(`https://fj-be-r2-paurush-kumar-iitm.onrender.com${userDetails.profilePicture}`);
       }
     }
   }, [userDetails]);
@@ -89,7 +89,7 @@ const Profile = () => {
       };
 
       const response = await axios.put(
-        'http://localhost:3000/api/profile',
+        'https://fj-be-r2-paurush-kumar-iitm.onrender.com/api/profile',
         profileData,
         config
       );
@@ -123,7 +123,7 @@ const Profile = () => {
       };
 
       const response = await axios.put(
-        'http://localhost:3000/api/profile/password',
+        'https://fj-be-r2-paurush-kumar-iitm.onrender.com/api/profile/password',
         {
           currentPassword: passwordData.currentPassword,
           newPassword: passwordData.newPassword,
@@ -166,7 +166,7 @@ const Profile = () => {
       };
 
       const response = await axios.put(
-        'http://localhost:3000/api/profile/picture',
+        'https://fj-be-r2-paurush-kumar-iitm.onrender.com/api/profile/picture',
         formData,
         config
       );
@@ -190,7 +190,7 @@ const Profile = () => {
       };
 
       await axios.put(
-        `http://localhost:3000/api/profile/notifications/${id}/read`,
+        `https://fj-be-r2-paurush-kumar-iitm.onrender.com/api/profile/notifications/${id}/read`,
         {},
         config
       );

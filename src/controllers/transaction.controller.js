@@ -7,8 +7,8 @@ const { checkBudgetAndNotify } = require('../services/notification.service');
 
 // Base URL for receipts - adjust as needed for production
 const BASE_URL = process.env.NODE_ENV === 'production' 
-  ? process.env.API_URL || 'https://your-api-domain.com' 
-  : 'http://localhost:3000';
+  ? process.env.API_URL || 'https://fj-be-r2-paurush-kumar-iitm.onrender.com' 
+  : 'https://fj-be-r2-paurush-kumar-iitm.onrender.com';
 
 // Helper function to format receipt URL
 const formatReceiptUrl = (receiptPath) => {

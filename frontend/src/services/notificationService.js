@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/api/profile/notifications/';
+const API_URL = 'https://fj-be-r2-paurush-kumar-iitm.onrender.com/api/profile/notifications/';
 
 // Get all notifications
 const getNotifications = async (token) => {

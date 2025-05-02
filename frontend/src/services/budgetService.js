@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/api/budgets/';
+const API_URL = 'https://fj-be-r2-paurush-kumar-iitm.onrender.com/api/budgets/';
 
 // Get all budgets
 const getBudgets = async (token) => {

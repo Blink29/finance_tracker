@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/api/auth/';
+const API_URL = 'https://fj-be-r2-paurush-kumar-iitm.onrender.com/api/auth/';
 
 // Register user
 const register = async (userData) => {
