@@ -154,10 +154,10 @@ exports.googleCallback = async (req, res) => {
     }));
 
     // Redirect to frontend with token and user data
-    res.redirect(`${process.env.FRONTEND_URL || 'http://localhost:5173'}/?auth=${userDataStr}`);
+    res.redirect(`${process.env.FRONTEND_URL || 'https://fj-be-r2-paurush-kumar-iitm.vercel.app'}/?auth=${userDataStr}`);
   } catch (error) {
     console.error('Google OAuth error:', error);
-    res.redirect(`${process.env.FRONTEND_URL || 'http://localhost:5173'}/login?error=Authentication failed`);
+    res.redirect(`${process.env.FRONTEND_URL || 'https://fj-be-r2-paurush-kumar-iitm.vercel.app'}/login?error=Authentication failed`);
   }
 };
 

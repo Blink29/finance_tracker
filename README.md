@@ -74,6 +74,7 @@ GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
 SENDGRID_API_KEY=your_sendgrid_api_key
 EMAIL_FROM=noreply@financetracker.com
+FRONTEND_URL=your_frontend_url
 ```
 
 5. **Create the PostgreSQL database**:
@@ -104,7 +105,7 @@ npm run dev
 
 10. **Access the application**:
    
-   Open your browser and navigate to http://localhost:5173 (or the URL displayed in the terminal)
+   Open your browser and navigate to https://fj-be-r2-paurush-kumar-iitm.vercel.app (or the URL displayed in the terminal)
 
 ## Project Structure
 
