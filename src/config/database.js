@@ -18,7 +18,8 @@ if (process.env.DATABASE_URL) {
       ssl: {
         require: true,
         rejectUnauthorized: false // Required for some Supabase connections
-      }
+      },
+      useIPv6: false
     }
   });
 } else {
@@ -41,7 +42,8 @@ if (process.env.DATABASE_URL) {
         ssl: {
           require: true,
           rejectUnauthorized: false // Required for some Supabase connections
-        }
+        },
+        useIPv6: false
       }
     }
   );
